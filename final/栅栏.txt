@@ -1,0 +1,61 @@
+1
+ncols         10800
+nrows         10800
+xllcorner     -180
+yllcorner     -4.2632564145606e-14
+cellsize      0.0083333333333333
+NODATA_value  -9999
+2
+ncols         10800
+nrows         10800
+xllcorner     -90
+yllcorner     -4.2632564145606e-14
+cellsize      0.0083333333333333
+NODATA_value  -9999
+3
+ncols         10800
+nrows         10800
+xllcorner     -8.5265128291212e-14
+yllcorner     -4.2632564145606e-14
+cellsize      0.0083333333333333
+NODATA_value  -9999
+4
+ncols         10800
+nrows         10800
+xllcorner     90
+yllcorner     -4.2632564145606e-14
+cellsize      0.0083333333333333
+NODATA_value  -9999
+5
+ncols         10800
+nrows         10800
+xllcorner     -180
+yllcorner     -90
+cellsize      0.0083333333333333
+NODATA_value  -9999
+6
+ncols         10800
+nrows         10800
+xllcorner     -90
+yllcorner     -90
+cellsize      0.0083333333333333
+NODATA_value  -9999
+7
+ncols         10800
+nrows         10800
+xllcorner     -8.5265128291212e-14
+yllcorner     -90
+cellsize      0.0083333333333333
+NODATA_value  -9999
+8
+ncols         10800
+nrows         10800
+xllcorner     90
+yllcorner     -90
+cellsize      0.0083333333333333
+NODATA_value  -9999
+
+#popTotal=calcPopulation([(115,38.05),(115,39.05),(116,40.2),(117,39),(117,38)])
+    #print(popTotal)
+
+http:/0.0.0.0:8000/search/115,115,116,117,117/38.05,39.05,40.2,39,38
